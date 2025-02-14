@@ -78,7 +78,7 @@ server.delete('/videos/:id', async(request,reply) => {
 
 
 server.listen({
-    host: '0.0.0.0',
+    host: '0.0.0.0.',
     port: process.env.PORT ?? 3333
     //port:3333
     //ao inves de usar a porta local vou usar a variavel para 
