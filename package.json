@@ -1,0 +1,31 @@
+{
+  "name": "mateus",
+  "version": "1.0.0",
+  "description": "repositorio local versionado",
+  "main": "Node.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Dev": "node --watch --no-warnings server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mateus-prime/Mateus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mateus-prime/Mateus/issues"
+  },
+  "homepage": "https://github.com/Mateus-prime/Mateus#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "fastify": "^5.2.1",
+    "postgres": "^3.4.5"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

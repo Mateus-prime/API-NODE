@@ -1,0 +1,36 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+Accept-Language: pt-br
+//meta dado de configuração
+
+{
+    "title":"video1",
+    "description":"esse é o primeiro video",
+    "duration": 180
+  
+}
+
+###
+//separa as requesiçoes
+
+GET http://localhost:3333/videos
+//adicionei a busca
+
+
+###
+PUT http://localhost:3333/videos/8e8eb230-f55a-4a62-b964-8016f3d68b2b
+Content-Type: application/json
+//nesse aqui altero as informaçoes do video copio a rota e jogo no final
+
+
+{
+    "title":"video 03",
+    "description":"esse é o segundo",
+    "duration": 180
+  
+}
+
+
+###
+
+DELETE http://localhost:3333/videos/7d2db03d-641a-4699-802e-be97000cf89a
