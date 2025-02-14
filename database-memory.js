@@ -1,11 +1,11 @@
 import { randomUUID } from "node:crypto"
-//unique universal id
+
 
 export class DatabaseMemory{ 
-    // # para ser uma chave privada
+    
     #videos =  new Map()
 
-    //set == naoaceita valores duplicados, map == como se fosse um obejto
+   
 
     
     list(search){
@@ -17,7 +17,7 @@ export class DatabaseMemory{
                 id,
                 ...data,
             
-                //transformei em dicionario e toda informaçao de data mandei num array so
+                
 
             }
         })
@@ -29,15 +29,15 @@ export class DatabaseMemory{
 
                 return true
             })
-            //vai recerber cada um dos videos, se houver uma busca
-            //vou retornar se tem ou nao aquele video 
-            //vale resaltar que essa constante é opcional
+            
+            
+            
            
         
         
         
-        //antes era values agora com o entries ele retorna um araray com id
-        //precisei mudar a estrutura para um array por que ele me devolve um values
+        
+        
     }
 
 
