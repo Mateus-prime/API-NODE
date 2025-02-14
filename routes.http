@@ -11,7 +11,7 @@ Accept-Language: pt-br
 }
 
 ###
-//separa as requesiçoes
+//separa as requisiçoes
 
 GET http://localhost:3333/videos
 //adicionei a busca
